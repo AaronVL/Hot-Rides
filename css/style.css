@@ -17,10 +17,12 @@
 }
 .hover-zoom {
   transition: transform 0.2s;
+  display: inline;
 }
 .hover-zoom:hover {
 transform: scale(1.1);
 border: 2px solid red;
+border-radius: 8px;
 }
 
 .navbar-brand {
@@ -36,6 +38,10 @@ border: 2px solid red;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 4px;
+}
+
+.nav-link:active {
+  background: red;
 }
 
 
@@ -70,4 +76,5 @@ btn .btn-primary .get-ride {
 .faq {
 background-color: rgba(0,0,0,.4);
 color: #fff;
+padding: 20px;
 }
