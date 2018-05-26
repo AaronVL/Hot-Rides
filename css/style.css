@@ -7,7 +7,7 @@
 .roboto {
   font-family: 'Roboto Condensed', sans-serif;
 }
-
+/* bold styling*/
 .bold {
   font-weight: 500;
 }
@@ -15,6 +15,7 @@
 .underline {
   text-decoration: underline;
 }
+
 .hover-zoom {
   transition: transform 0.2s;
   display: inline;
@@ -54,7 +55,7 @@ border-radius: 8px;
   background-size: cover;
   height: auto;
 }
-
+/*HOME PAGE LIST STYLING*/
 .main-list {
   font-size: 20px;
   list-style: none;
@@ -73,8 +74,21 @@ btn .btn-primary .get-ride {
   padding: 20px;
 }
 
+/* FAQ PAGE STYLING START*/
 .faq {
 background-color: rgba(0,0,0,.4);
 color: #fff;
 padding: 20px;
+}
+
+.about {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flex-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+
 }
