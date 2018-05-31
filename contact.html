@@ -32,14 +32,14 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav bold">
-        <li class="active nav-link hover-zoom"><a href="index.html">Home</a></li>
+        <li class="nav-link hover-zoom"><a href="index.html">Home</a></li>
         <li><a href="faq.html" class="nav-link hover-zoom">FREQUENTLY ASKED QUESTIONS <span class="glyphicon glyphicon-question-sign"></span></a></li>
         <li><a href="about.html" class="nav-link hover-zoom">ABOUT US <i class="fa fa-users" aria-hidden="true"></i></a></li>
-        <li><a href="contact.html" class="nav-link hover-zoom">CONTACT US <span class="glyphicon glyphicon-envelope"></span></a></li>
+        <li class="active"><a href="contact.html" class="active nav-link hover-zoom">CONTACT US <span class="glyphicon glyphicon-envelope"></span></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#" class="register nav-link hover-zoom">Sign Up <span class="glyphicon glyphicon-pencil"></span></a></li>
-        <li><a href="#" class="nav-link hover-zoom">HELP <span class="glyphicon glyphicon-question-sign"></span></a></li>
+        <li><a href="help.html" class="nav-link hover-zoom">HELP <span class="glyphicon glyphicon-question-sign"></span></a></li>
       </ul>
     </div>
   </div>
@@ -72,5 +72,19 @@
 </div><!--Container fluid ends-->
 
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCrU7Cyi19Z7LE4ghSy3Sr5wlsQoIKB1K4",
+    authDomain: "hot-ride.firebaseapp.com",
+    databaseURL: "https://hot-ride.firebaseio.com",
+    projectId: "hot-ride",
+    storageBucket: "",
+    messagingSenderId: "414191073623"
+  };
+  firebase.initializeApp(config);
+</script>
 
 </html>
