@@ -5,7 +5,13 @@
     <title>Hot Rides</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--FIREBASE-->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <!--FIRESTORE-->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firestore.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
         <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -65,22 +71,22 @@
       <div class="col-sm-12 ">
           <button class="btn btn-danger get-ride roboto bold underline center-block hover-zoom"><h2>GET A FREE RIDE TO SOMEWHERE COOL NOW!</h2></button>
       </div>
+
     </div>
 </div>
-
-</body>
-
 <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
 <script>
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyCrU7Cyi19Z7LE4ghSy3Sr5wlsQoIKB1K4",
-    authDomain: "hot-ride.firebaseapp.com",
-    databaseURL: "https://hot-ride.firebaseio.com",
-    projectId: "hot-ride",
-    storageBucket: "",
-    messagingSenderId: "414191073623"
+    apiKey: "AIzaSyCqSg9mtSjl8rdcEXvl0e2ORLxMcGea4-s",
+    authDomain: "hot-rides-395bd.firebaseapp.com",
+    databaseURL: "https://hot-rides-395bd.firebaseio.com",
+    projectId: "hot-rides-395bd",
+    storageBucket: "hot-rides-395bd.appspot.com",
+    messagingSenderId: "191779076643"
   };
   firebase.initializeApp(config);
 </script>
+<script src="js/script.js"></script>
+</body>
 </html>

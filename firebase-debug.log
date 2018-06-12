@@ -1,0 +1,44 @@
+[debug] [2018-05-31T02:30:26.361Z] ----------------------------------------------------------------------
+[debug] [2018-05-31T02:30:26.363Z] Command:       /Users/clai011/.nvm/versions/node/v10.2.1/bin/node /Users/clai011/.nvm/versions/node/v10.2.1/bin/firebase init hosting
+[debug] [2018-05-31T02:30:26.363Z] CLI Version:   3.18.5
+[debug] [2018-05-31T02:30:26.363Z] Platform:      darwin
+[debug] [2018-05-31T02:30:26.364Z] Node Version:  v10.2.1
+[debug] [2018-05-31T02:30:26.364Z] Time:          Wed May 30 2018 19:30:26 GMT-0700 (PDT)
+[debug] [2018-05-31T02:30:26.364Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-31T02:30:26.378Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-05-31T02:30:26.378Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/clai011
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-05-31T02:30:26.384Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Wed May 30 2018 19:30:26 GMT-0700 (PDT)
+[debug] [2018-05-31T02:30:27.052Z] <<< HTTP RESPONSE 200
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
