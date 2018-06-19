@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  <title>Login</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--FIREBASE-->
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <!--FIRESTORE-->
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firestore.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+  <!--NAV BAR-->
+  <nav class="navbar navbar-default raleway">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Hot Rides</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav bold">
+          <li class="active nav-link hover-zoom"><a href="index.html">Home</a></li>
+          <li><a href="faq.html" class="nav-link hover-zoom">FREQUENTLY ASKED QUESTIONS <span class="glyphicon glyphicon-question-sign"></span></a></li>
+          <li><a href="about.html" class="nav-link hover-zoom">ABOUT US <i class="fa fa-users" aria-hidden="true"></i></a></li>
+          <li><a href="contact.html" class="nav-link hover-zoom">CONTACT US <span class="glyphicon glyphicon-envelope"></span></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="auth.html" class="register nav-link hover-zoom">Sign Up <span class="glyphicon glyphicon-pencil"></span></a></li>
+          <li><a href="#" class="nav-link hover-zoom">HELP <span class="glyphicon glyphicon-question-sign"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAV BAR ENDS-->
+
+<div class="container-fluid">
+
+  <div class="container auth">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+
+        <input type="email" placeholder="Your Email Address" id="email">
+        <input type="password" placeholder="Your Password" id="password">
+
+        <button class="btn-success btn" id="login-btn">Login</button>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</body>
+<script src="js/script.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCqSg9mtSjl8rdcEXvl0e2ORLxMcGea4-s",
+    authDomain: "hot-rides-395bd.firebaseapp.com",
+    databaseURL: "https://hot-rides-395bd.firebaseio.com",
+    projectId: "hot-rides-395bd",
+    storageBucket: "hot-rides-395bd.appspot.com",
+    messagingSenderId: "191779076643"
+  };
+  firebase.initializeApp(config);
+</script>
+</html>

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Hot Rides</title>
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -44,7 +45,7 @@
         <li><a href="contact.html" class="nav-link hover-zoom">CONTACT US <span class="glyphicon glyphicon-envelope"></span></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="register nav-link hover-zoom">Sign Up <span class="glyphicon glyphicon-pencil"></span></a></li>
+        <li><a href="auth.html" class="register nav-link hover-zoom">Sign Up <span class="glyphicon glyphicon-pencil"></span></a></li>
         <li><a href="#" class="nav-link hover-zoom">HELP <span class="glyphicon glyphicon-question-sign"></span></a></li>
       </ul>
     </div>
@@ -62,7 +63,11 @@
             <li class="hover-zoom"><span class="glyphicon glyphicon-ok"></span> We notify you when temperature is dangerously high.</li>
             <li class="hover-zoom"><span class="glyphicon glyphicon-ok"></span> Care-takers welcome.</li>
             <li class="hover-zoom"><span class="glyphicon glyphicon-ok"></span> COMPLETELY FREE!</li>
+              <div id="openweathermap-widget-13"></div>
           </ul>
+
+
+
         </div>
       </div>
     </div>
@@ -74,7 +79,7 @@
 
     </div>
 </div>
-<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+
 <script>
   // Initialize Firebase
   var config = {
@@ -88,5 +93,7 @@
   firebase.initializeApp(config);
 </script>
 <script src="js/script.js"></script>
+<script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 13,cityid: '4692400',appid: '36d36ebcf7116548e4d8f0205d95497c',units: 'imperial',containerid: 'openweathermap-widget-13',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
+
 </body>
 </html>
