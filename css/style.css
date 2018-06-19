@@ -110,3 +110,7 @@ padding: 20px;
     width:100%;
     position:absolute;
 }
+
+.widgets {
+  height: 500px;
+}
