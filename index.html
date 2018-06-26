@@ -26,60 +26,61 @@
   </head>
   <body class=" main">
 
-<!--NAV BAR-->
-<nav class="navbar navbar-default raleway">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Hot Rides</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav bold">
-        <li class="active nav-link hover-zoom"><a href="index.html">Home</a></li>
-        <li><a href="faq.html" class="nav-link hover-zoom">FREQUENTLY ASKED QUESTIONS <span class="glyphicon glyphicon-question-sign"></span></a></li>
-        <li><a href="about.html" class="nav-link hover-zoom">ABOUT US <i class="fa fa-users" aria-hidden="true"></i></a></li>
-        <li><a href="contact.html" class="nav-link hover-zoom">CONTACT US <span class="glyphicon glyphicon-envelope"></span></a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="auth.html" class="register nav-link hover-zoom">Sign Up <span class="glyphicon glyphicon-pencil"></span></a></li>
-        <li><a href="help.html" class="nav-link hover-zoom">HELP <span class="glyphicon glyphicon-question-sign"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- NAV BAR ENDS-->
-<div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="jumbotron roboto">
-          <h1>Free Rides to Cooling Centers.</h1>
-          <h2>Serving <span class="underline bold"><i>senior residents</i></span> in the Central Valley.</h2>
-          <br>
-          <ul class="main-list">
-            <li class="hover-zoom"><span class="glyphicon glyphicon-ok"></span> We notify you when temperature is dangerously high.</li>
-            <li class="hover-zoom"><span class="glyphicon glyphicon-ok"></span> Care-takers welcome.</li>
-            <li class="hover-zoom"><span class="glyphicon glyphicon-ok"></span> COMPLETELY FREE!</li>
-
+    <!--NAV BAR-->
+    <nav class="navbar navbar-default raleway">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Hot Rides</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav bold">
+            <li class="active nav-link hover-zoom"><a href="index.html">Home</a></li>
+            <li><a href="faq.html" class="nav-link hover-zoom">FREQUENTLY ASKED QUESTIONS <span class="glyphicon glyphicon-question-sign"></span></a></li>
+            <li><a href="about.html" class="nav-link hover-zoom">ABOUT US <i class="fa fa-users" aria-hidden="true"></i></a></li>
+            <li><a href="contact.html" class="nav-link hover-zoom">CONTACT US <span class="glyphicon glyphicon-envelope"></span></a></li>
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="auth.html" class="register nav-link hover-zoom">Sign Up <span class="glyphicon glyphicon-pencil"></span></a></li>
+            <li><a href="help.html" class="nav-link hover-zoom">HELP <span class="glyphicon glyphicon-question-sign"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAV BAR ENDS-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jumbotron roboto">
+            <h1>Free Rides to Cooling Centers.</h1>
+            <h2>Serving <span class="underline bold"><i>senior residents</i></span> in the Central Valley.</h2>
+            <br>
+            <ul class="main-list">
+              <li class="hover-zoom"><span class="glyphicon glyphicon-ok"></span> We notify you when temperature is dangerously high.</li>
+              <li class="hover-zoom"><span class="glyphicon glyphicon-ok"></span> Care-takers welcome.</li>
+              <li class="hover-zoom"><span class="glyphicon glyphicon-ok"></span> COMPLETELY FREE!</li>
+
+            </ul>
 
 
 
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Widgets Start -->
+      <!-- Widgets Start -->
 
     <div class="container widgets">
       <div class="row">
 
         <!-- Weather Widget Starts -->
 
-        <div class="col-sm-6 col-xs-12 weather-info">
+        <div class="col-sm-6 weather-info">
           <a class="weatherwidget-io" href="https://forecast7.com/en/36d75n119d77/fresno/?unit=us" data-label_1="FRESNO" data-label_2="WEATHER" data-theme="original" >FRESNO WEATHER</a>
         </div>
 
@@ -87,39 +88,38 @@
 
         <!-- Map Widget Starts -->
 
-        <div class="col-sm-5 col-sm-offset-1 col-xs-12 cooling-center">
+        <div class="col-sm-6 cooling-center">
           <iframe src="https://www.google.com/maps/d/embed?mid=1heh14IEV2_9TNCkb54odDsEheiRJPAg3&hl=en" width="100%" height="480"></iframe>
         </div>
 
         <!-- Map Widget Ends -->
-
       </div>
     </div>
 
-    <!-- Widgets End -->
-
-    <div class="row">
-      <div class="col-sm-12 col-xs-12">
+      <!-- Widgets End -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
           <button class="btn btn-danger get-ride roboto bold underline center-block hover-zoom"><h2>GET A FREE RIDE TO SOMEWHERE COOL NOW!</h2></button>
+        </div>
+
       </div>
-
     </div>
-</div>
 
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCqSg9mtSjl8rdcEXvl0e2ORLxMcGea4-s",
-    authDomain: "hot-rides-395bd.firebaseapp.com",
-    databaseURL: "https://hot-rides-395bd.firebaseio.com",
-    projectId: "hot-rides-395bd",
-    storageBucket: "hot-rides-395bd.appspot.com",
-    messagingSenderId: "191779076643"
-  };
-  firebase.initializeApp(config);
-</script>
-<script src="js/script.js"></script>
-<script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 13,cityid: '4692400',appid: '36d36ebcf7116548e4d8f0205d95497c',units: 'imperial',containerid: 'openweathermap-widget-13',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCqSg9mtSjl8rdcEXvl0e2ORLxMcGea4-s",
+        authDomain: "hot-rides-395bd.firebaseapp.com",
+        databaseURL: "https://hot-rides-395bd.firebaseio.com",
+        projectId: "hot-rides-395bd",
+        storageBucket: "hot-rides-395bd.appspot.com",
+        messagingSenderId: "191779076643"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="js/script.js"></script>
+    <script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 13,cityid: '4692400',appid: '36d36ebcf7116548e4d8f0205d95497c',units: 'imperial',containerid: 'openweathermap-widget-13',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
 
-</body>
+  </body>
 </html>
