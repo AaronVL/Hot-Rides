@@ -58,6 +58,7 @@ border-radius: 8px;
   background-image: url('../img/bg.jpg');
   background-size: cover;
   height: auto;
+  background-repeat: no-repeat;
 }
 /*HOME PAGE LIST STYLING*/
 .main-list {
